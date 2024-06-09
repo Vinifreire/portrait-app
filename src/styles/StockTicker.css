@@ -1,0 +1,8 @@
+.child-component {
+  margin-top: 20px;
+}
+
+.no-data {
+  color: red;
+  font-size: 18px;
+}
