@@ -13,6 +13,9 @@
 .table th {
   background-color: #f2f2f2;
   color: black;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .table tr:nth-child(even) {
@@ -23,8 +26,6 @@
   background-color: #ddd;
 }
 
-.table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
+.table td:first-child {
+  text-align: center;
 }

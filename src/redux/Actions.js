@@ -5,7 +5,6 @@ export const fetchStockData = (ticker) => {
     try {
       // Simulate API call
       const response = await fetch(`http://localhost:3001/stock_ticker/${ticker}`);
-      console.log(response)
       const data = await response.json();
       
       // Dispara a ação com os dados da API

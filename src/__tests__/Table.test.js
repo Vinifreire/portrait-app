@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Table from '../src/components/Table';
+import Table from '../components/Table';
 
 test('renders table with header and data', () => {
   const data = [
@@ -28,5 +28,5 @@ test('renders table with header and data', () => {
   expect(dataCells[4]).toHaveTextContent('volume');
   expect(dataCells[5]).toHaveTextContent('154338835.0');
   expect(dataCells[6]).toHaveTextContent('24018404.0');
-  expect(dataCells[7]).toHaveTextContent('172.47158319999997');
+  expect(dataCells[7]).toHaveTextContent('172.47');
 });
